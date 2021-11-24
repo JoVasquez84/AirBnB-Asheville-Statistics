@@ -240,7 +240,7 @@ def build_distribution_histogram(column_data,color, figsize_list, bins_int, step
     #plt.axvline(x.mean(), color='k', linestyle='dashed', linewidth=1, label=)
     plt.title(title)
     plt.legend([f'Min Value:{min_int}',f'Max Value:{max_int}'], loc='upper right')
-    plt.savefig(imagename +'.png')
+    plt.savefig(f'images/{imagename}' +'.png')
     plt.show()
 
 
