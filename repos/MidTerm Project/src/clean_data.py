@@ -307,11 +307,10 @@ def determine_theoretical_profit(df,median_value):
 
 
 if __name__ == "__main__":
+
     listings_detailed_df = read_in_data(listings_file)
 
-
     pie_chart_for_column_value_by_percentage(listings_detailed_df,'room_type','Asheville AirBnB Listings By Room Type', 'All Room Type by Percentage')
-
 
     new_listings_with_cleaning_df = determine_avg_cleaning_fee(listings_detailed_df)
     new_listings_df = keep_pertinent_listings_data(new_listings_with_cleaning_df)
@@ -390,6 +389,8 @@ if __name__ == "__main__":
     plt.suptitle('All Monthly Profits ')
     plt.savefig('images/All Monthly Profits.png')
     plt.show()
+
+    print('completed')
 
 
 
