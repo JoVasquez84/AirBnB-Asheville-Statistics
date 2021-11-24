@@ -26,6 +26,27 @@ Airbnb launched an API in 2017 for business partners, but as of 2021, is no long
 
 The data consisted of a single CSV file with 71 columns. The columns were composed of string and integer values and ranged in category from information on hosts, reviews, listing details,and pricing to detailed future calendar availability. After identifying the superfluous columns, the data was reduced to 31 columns with the following columns being the subject of this study:
 
+```
+airbnb_data[['host_id',
+    'host_name',
+    'neighbourhood',
+    'room_type',
+    'price',
+    'minimum_nights',
+    'availability_30',
+    'calculated_host_listings_count_entire_homes',
+    'host_id',
+    'gross_income_30',
+    'airbnb_host_fee',
+    'airbnb_profit_30',
+    'bedrooms',
+    'bathrooms',
+    'bathrooms_text',
+    'cleaning_fee',
+    'percentage_occupied',
+    'net_income_30',
+    'cleaners_fee_30']]
+```
 
 # Exploratory Data Analysis
 The data revealed the following:
