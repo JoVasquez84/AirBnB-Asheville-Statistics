@@ -306,7 +306,7 @@ def determine_theoretical_profit(df,median_value):
 ## if name equals main block #####
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     listings_detailed_df = read_in_data(listings_file)
 
 
