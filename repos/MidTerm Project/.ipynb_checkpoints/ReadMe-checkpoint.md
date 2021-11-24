@@ -18,7 +18,7 @@ Asheville NC is a beautiful wooded region in North Carolina which borders Tennes
   <h align='center'> Geographic Layout For AirBnB in Asheville- October 2021</h>
   </p>
   <p align='center'>
-  <img src= "images/Asheville_City.png" width= 50%  height = 50%>
+  <img src= "images/Asheville_city.png" width= 50%  height = 50%>
 </p>
 
 # Data Overview
@@ -48,7 +48,7 @@ AirBnB data has two ways to track the listing host: host name and host id. The h
 
   * 52% of hosts were using AirBnB to list only one home for short-term rentals, but 48% of hosts were listing multiple homes:
   <p align="center">
-  <img src= "images/Total Entire Home Listings per Host.png" width= 650 height = 500>
+  <img src= "images/Total Entire Home Listings Per Host.png" width= 650 height = 500>
 </p>
 
   * Most notably, several hosts were offering more than 10 listings, which could be indicative of a business. Figure 2 displays the names of the 20 hosts with the most listings and we can see that indeed, the top 4 hosts are vacation rentals or property management businesses, both in the for-profit sector:
