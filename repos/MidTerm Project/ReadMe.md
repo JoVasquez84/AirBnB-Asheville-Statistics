@@ -146,6 +146,12 @@ Cleaners Income Formula:
 
 ### Total Profits
 
+The total monthly profits amounts to  millions of dollars, clearly showing the high profit margin for certain elements in Asheville.
+
+<p align="center">
+  <img src= "images/All Monthly Profits.png" width= 800 height = 300>
+</p>
+
 
 # Future Steps
 
